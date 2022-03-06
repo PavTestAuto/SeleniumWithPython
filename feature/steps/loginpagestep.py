@@ -19,6 +19,11 @@ class stepDefinition:
     def loginlogo3(context):
         login.closeDriver(context)
 
+    @given(u'user launch the browser')
+    def open_browser(context):
+        login.driverSetup(context)
+
+
 
 
 

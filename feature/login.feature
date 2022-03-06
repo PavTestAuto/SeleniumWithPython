@@ -6,3 +6,5 @@ Feature: login page
     Then check whether logo is present on page
     Then close browser
 
+  Scenario: practice scenario
+    Given user launch the browser
